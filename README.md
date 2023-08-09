@@ -11,3 +11,4 @@ Version de Java utilizada : Java 20
 
 Base de datos : MYSQL
 
+Se incluyen los requests en doc/postman
