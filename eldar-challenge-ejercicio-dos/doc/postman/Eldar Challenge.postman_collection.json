@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "73070d6a-098b-46f3-8d01-60f751eb84f8",
+		"name": "Eldar Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tasa Operacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"marca\" : \"NARA\",\r\n    \"importe\" : \"2000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tasaOperaciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tasaOperaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tasa Operacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tasaOperaciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tasaOperaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tasa Operacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tasaOperaciones/7bc695cf-1b31-45c3-9789-e55a2ea1250d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tasaOperaciones",
+						"7bc695cf-1b31-45c3-9789-e55a2ea1250d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tasa Operacion",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"marca\" : \"AMEX\",\r\n    \"importe\" : \"2000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tasaOperaciones/7bc695cf-1b31-45c3-9789-e55a2ea1250d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tasaOperaciones",
+						"7bc695cf-1b31-45c3-9789-e55a2ea1250d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tasa Operacion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tasaOperaciones/7bc695cf-1b31-45c3-9789-e55a2ea1250d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tasaOperaciones",
+						"7bc695cf-1b31-45c3-9789-e55a2ea1250d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
