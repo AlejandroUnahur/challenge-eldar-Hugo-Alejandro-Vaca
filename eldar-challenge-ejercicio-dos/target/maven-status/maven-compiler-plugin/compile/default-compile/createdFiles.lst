@@ -1,0 +1,7 @@
+com\eldar\challenge\entity\TasaOperacion.class
+com\eldar\challenge\ChallengeApplication.class
+com\eldar\challenge\exception\TasaOperacionNotFoundException.class
+com\eldar\challenge\service\imp\TasaOperacionServiceImp.class
+com\eldar\challenge\controller\TasaOperacionController.class
+com\eldar\challenge\service\TasaOperacionService.class
+com\eldar\challenge\repository\TasaOperacionRepository.class
